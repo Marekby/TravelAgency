@@ -17,7 +17,7 @@ public class Hotel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long hotelId;
+    private Long id;
 
     @Column(name = "name")
     private String name;

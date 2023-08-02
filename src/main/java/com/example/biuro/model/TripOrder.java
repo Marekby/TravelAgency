@@ -18,7 +18,7 @@ public class TripOrder {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long tripOrderId;
+    private Long id;
 
     @Column(name = "amount")
     private Integer amount;
