@@ -17,7 +17,7 @@ public class Participants {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long participantsId;
+    private Long id;
 
     // FK1 clientId
     @ManyToOne

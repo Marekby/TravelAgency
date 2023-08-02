@@ -18,7 +18,7 @@ public class Trip {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long tripId;
+    private Long id;
 
     //    origin:
     //FK1 airportId
