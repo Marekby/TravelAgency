@@ -13,7 +13,7 @@ import javax.persistence.*;
 @Setter
 
 @Entity
-public class City {
+public class Country {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,11 +21,4 @@ public class City {
 
     @Column(name = "name")
     private String name;
-
-    //FK1 countryId
-    @ManyToOne
-    private Country country;
-
-
-
 }
