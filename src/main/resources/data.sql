@@ -1,62 +1,109 @@
-INSERT INTO city (name, country) VALUES ('Amsterdam', 'Netherlands');
+INSERT INTO country (name) VALUES ('Netherlands');
 
-INSERT INTO city (name, country) VALUES ('Andorra', 'Andorra');
+INSERT INTO country (name) VALUES ('Andorra');
 
-INSERT INTO city (name, country) VALUES ('Athens', 'Greece');
+INSERT INTO country (name) VALUES ('Greece');
 
-INSERT INTO city (name, country) VALUES ('Belgrade', 'Serbia');
+INSERT INTO country (name) VALUES ('Serbia');
 
-INSERT INTO city (name, country) VALUES ('Vienna', 'Austria');
+INSERT INTO country (name) VALUES ('Austria');
 
-INSERT INTO city (name, country) VALUES ('Brussels', 'Belgium');
+INSERT INTO country (name) VALUES ('Belgium');
 
-INSERT INTO city (name, country) VALUES ('Sofia', 'Bulgaria');
+INSERT INTO country (name) VALUES ('Bulgaria');
 
-INSERT INTO city (name, country) VALUES ('Prague', 'Czechia');
+INSERT INTO country (name) VALUES ('Prague');
 
-INSERT INTO city (name, country) VALUES ('Copenhagen', 'Denmark');
+INSERT INTO country (name) VALUES ('Czechia');
 
-INSERT INTO city (name, country) VALUES ('Tallinn', 'Estonia');
+INSERT INTO country (name) VALUES ('Estonia');
 
-INSERT INTO city (name, country) VALUES ('Helsinki', 'Finland');
+INSERT INTO country (name) VALUES ('Finland');
 
-INSERT INTO city (name, country) VALUES ('Paris', 'France');
+INSERT INTO country (name) VALUES ('France');
 
-INSERT INTO city (name, country) VALUES ('Berlin', 'Germany');
+INSERT INTO country (name) VALUES ('Germany');
 
-INSERT INTO city (name, country) VALUES ('Athens', 'Greece');
+INSERT INTO country (name) VALUES ('Greece');
 
-INSERT INTO city (name, country) VALUES ('Dublin', 'Ireland');
+INSERT INTO country (name) VALUES ('Ireland');
 
-INSERT INTO city (name, country) VALUES ('Rome', 'Italy');
+INSERT INTO country (name) VALUES ('Italy');
 
-INSERT INTO city (name, country) VALUES ('Milan', 'Italy');
+INSERT INTO country (name) VALUES ('Latvia');
 
-INSERT INTO city (name, country) VALUES ('Bologna', 'Italy');
+INSERT INTO country (name) VALUES ('Lithuania');
 
-INSERT INTO city (name, country) VALUES ('Riga', 'Latvia');
+INSERT INTO country (name) VALUES ('Malta');
 
-INSERT INTO city (name, country) VALUES ('Vilnius', 'Lithuania');
+INSERT INTO country (name) VALUES ('Poland');
 
-INSERT INTO city (name, country) VALUES ('Valletta', 'Malta');
+INSERT INTO country (name) VALUES ('Portugal');
 
-INSERT INTO city (name, country) VALUES ('Warsaw', 'Poland');
+INSERT INTO country (name) VALUES ('Spain');
 
-INSERT INTO city (name, country) VALUES ('Wroclaw', 'Poland');
+INSERT INTO country (name) VALUES ('United Kingdom');
 
-INSERT INTO city (name, country) VALUES ('Krakow', 'Poland');
 
-INSERT INTO city (name, country) VALUES ('Lisbon', 'Portugal');
+INSERT INTO city (name, country_id) VALUES ('Amsterdam', 1);
 
-INSERT INTO city (name, country) VALUES ('Madrid', 'Spain');
+INSERT INTO city (name, country_id) VALUES ('Andorra', 2);
 
-INSERT INTO city (name, country) VALUES ('Barcelona', 'Spain');
+INSERT INTO city (name, country_id) VALUES ('Athens', 3);
 
-INSERT INTO city (name, country) VALUES ('Malaga', 'Spain');
+INSERT INTO city (name, country_id) VALUES ('Belgrade', 4);
 
-INSERT INTO city (name, country) VALUES ('London', 'United Kingdom');
+INSERT INTO city (name, country_id) VALUES ('Vienna', 5);
 
-INSERT INTO city (name, country) VALUES ('Liverpool', 'United Kingdom');
+INSERT INTO city (name, country_id) VALUES ('Brussels', 6);
+
+INSERT INTO city (name, country_id) VALUES ('Sofia', 7);
+
+INSERT INTO city (name, country_id) VALUES ('Prague', 8);
+
+INSERT INTO city (name, country_id) VALUES ('Copenhagen', 9);
+
+INSERT INTO city (name, country_id) VALUES ('Tallinn', 10);
+
+INSERT INTO city (name, country_id) VALUES ('Helsinki', 11);
+
+INSERT INTO city (name, country_id) VALUES ('Paris', 12);
+
+INSERT INTO city (name, country_id) VALUES ('Berlin', 13);
+
+INSERT INTO city (name, country_id) VALUES ('Athens', 14);
+
+INSERT INTO city (name, country_id) VALUES ('Dublin', 15);
+
+INSERT INTO city (name, country_id) VALUES ('Rome', 16);
+
+INSERT INTO city (name, country_id) VALUES ('Milan', 16);
+
+INSERT INTO city (name, country_id) VALUES ('Bologna', 16);
+
+INSERT INTO city (name, country_id) VALUES ('Riga', 17);
+
+INSERT INTO city (name, country_id) VALUES ('Vilnius', 18);
+
+INSERT INTO city (name, country_id) VALUES ('Valletta', 19);
+
+INSERT INTO city (name, country_id) VALUES ('Warsaw', 20);
+
+INSERT INTO city (name, country_id) VALUES ('Wroclaw', 20);
+
+INSERT INTO city (name, country_id) VALUES ('Krakow', 20);
+
+INSERT INTO city (name, country_id) VALUES ('Lisbon', 21);
+
+INSERT INTO city (name, country_id) VALUES ('Madrid', 22);
+
+INSERT INTO city (name, country_id) VALUES ('Barcelona', 22);
+
+INSERT INTO city (name, country_id) VALUES ('Malaga', 22);
+
+INSERT INTO city (name, country_id) VALUES ('London', 23);
+
+INSERT INTO city (name, country_id) VALUES ('Liverpool', 23);
 
 
 INSERT INTO hotel (name, standard, description, city_id)
